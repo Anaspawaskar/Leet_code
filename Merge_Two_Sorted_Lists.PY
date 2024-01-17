@@ -4,15 +4,10 @@ def merge(list1,list2):
     if list1 and list2 is None :
         print("[]")
     result = sorted(list1+list2)
-    return result
-     
+    return result 
 
-
-   
-            
-
-list1 = [2,3,4]
-list2 = [1,1]
+list1 = [12,34,23,11]
+list2 = [10,9,14]
 
 print(merge(list1,list2))
 
